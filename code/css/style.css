@@ -1,0 +1,31 @@
+.container h2 {
+  text-align: center;
+}
+.container .my-todo-list {
+  max-width: 350px;
+  padding: 20px;
+  margin: 20px auto;
+  margin-bottom: 20px;
+}
+.container .my-todo-list div {
+  display: flex;
+}
+.container .my-todo-list div input {
+  flex: 2;
+  margin-right: 10px;
+}
+.container .list-item {
+  display: flex;
+  align-items: center;
+}
+.container .list-item .left {
+  margin-left: auto;
+}
+.container .list-item input {
+  margin-right: 10px;
+}
+.container .list-item.checked {
+  text-decoration: line-through;
+}
+
+/*# sourceMappingURL=style.css.map */

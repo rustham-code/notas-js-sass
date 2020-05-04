@@ -1,12 +1,13 @@
 # My todo list
+https://jsfiddle.net/steven_f/urm5jfx2/latest/
 
 use el compilador rapido para sass ( **"sass --watch imput.scss:output.css"** )
 
 ### agregando tarea 
-![agregar](/code/img/tareas.PNG)
+![agregar](/img/tareas.PNG)
 
 ### tacha y pasa a la otra tabla 
-![creacion](/code/img/dos.PNG)
+![creacion](/img/dos.PNG)
 
 ### elimina 
-![Avance](/code/img/elimina.PNG)
+![Avance](/img/elimina.PNG)

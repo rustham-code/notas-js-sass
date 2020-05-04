@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Page Title</title>
+    <!--Enlace de css que se convirtio de scss  -->
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/style.css'>
+
+    <!--Enlace de boostrap-->
+    <link rel='stylesheet' type='text/js' media='screen' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.0/js/bootstrap.min.js'>
+    <link rel='stylesheet' type='text/css' media='screen' href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css'>
+    <script src='./js/index.js'></script>
+</head>
+<body>
+    <div class="container">
+        <div class="card my-todo-list">
+          <header class="header">
+            <h2><i><b>Tareas</b></i></h2>
+            <div class=form-inLine>
+              <input  type="text" id="input-task">
+              <button class="btn btn-dark btn-sm" onclick="addTask()">Add</button>
+            </div>
+          </header>
+            <ul class="list-group">
+            </ul>
+        </div>
+        
+        <div class="card my-todo-list">
+        <h2><i>Completadas</i></h2>
+          <ul class="list-group completas">
+          </ul>
+        </div>
+        </div>
+</body>
+</html>
